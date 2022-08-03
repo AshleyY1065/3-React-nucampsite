@@ -1,3 +1,4 @@
+import { useSelector } from 'react-redux';
 import { Card, CardImg, CardText, CardBody, Col } from 'reactstrap';
 
 const CampsiteDetail = ( {campsite} ) => {
