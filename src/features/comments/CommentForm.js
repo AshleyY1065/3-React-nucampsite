@@ -37,20 +37,20 @@ const CommentForm = ({campsiteId}) => {
                         <FormGroup>
                             <Label htmlFor='rating'>Rating</Label>
                             <Field
-                                    name='rating'
-                                    as='select'
-                                    className='form-control'
-                                >
-                                    <option>Select...</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </Field>
-                                <ErrorMessage name='rating'>
+                                name='rating'
+                                as='select'
+                                className='form-control'
+                            >
+                                <option>Select...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </Field>
+                            <ErrorMessage name='rating'>
                                 {(msg) => <p className='text-danger'>{msg}</p>}
-                                </ErrorMessage>
+                            </ErrorMessage>
                         </FormGroup>
                         <FormGroup>
                             <Label htmlFor='author'>Your Name</Label>
